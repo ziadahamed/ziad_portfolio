@@ -1,4 +1,3 @@
-
 import { FaGithub,FaFacebookF,FaInstagram,FaLinkedin } from "react-icons/fa";
 export default function Contact() {
   
@@ -26,8 +25,8 @@ export default function Contact() {
               </div>
          
               
-              <p className='text-white'>&copy; 2025 All Rights Reserved. Made By <br /><p className='flex justify-center'>Ziad Ahamed. </p> </p> 
-              <p className='text-white'>Privacy Policy   Terms and Conditions<br /><p className='flex justify-center'></p> </p>
+              <p className='text-white'>&copy; 2025 All Rights Reserved. Made By <br /><span className='flex justify-center'>Ziad Ahamed. </span> </p> 
+              <p className='text-white'>Privacy Policy Terms and Conditions<br /><span className='flex justify-center'></span> </p>
             </div>
         
 
