@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ziad_portfolio/static/css/main.1e8c8dbc.css",
+    "main.js": "/ziad_portfolio/static/js/main.c2f78fa5.js",
+    "static/media/IMG-20241228-WA0146.jpg": "/ziad_portfolio/static/media/IMG-20241228-WA0146.727309b7b4459816ae61.jpg",
+    "static/media/about.png": "/ziad_portfolio/static/media/about.619ff0b319a55d0c05b1.png",
+    "static/media/hero.png": "/ziad_portfolio/static/media/hero.f14f30c6d01a97df04f6.png",
+    "static/media/resume.jpg": "/ziad_portfolio/static/media/resume.40d9ec3d0701d254f50f.jpg",
+    "static/media/2be1ce_~mv2.gif": "/ziad_portfolio/static/media/2be1ce_864567900845418ebfd61e297637464d~mv2.160ebf189652ae46371c.gif",
+    "static/media/food-ecommerce.jpg": "/ziad_portfolio/static/media/food-ecommerce.326353bf18adc9f60576.jpg",
+    "static/media/ecommerce-websites.jpg": "/ziad_portfolio/static/media/ecommerce-websites.a5d17e54a5ffb19ff686.jpg",
+    "static/media/istockphoto-1456363935-612x612.jpg": "/ziad_portfolio/static/media/istockphoto-1456363935-612x612.9025a0e33153d554a88e.jpg",
+    "index.html": "/ziad_portfolio/index.html",
+    "main.1e8c8dbc.css.map": "/ziad_portfolio/static/css/main.1e8c8dbc.css.map",
+    "main.c2f78fa5.js.map": "/ziad_portfolio/static/js/main.c2f78fa5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e8c8dbc.css",
+    "static/js/main.c2f78fa5.js"
+  ]
+}
