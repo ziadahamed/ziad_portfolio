@@ -13,7 +13,7 @@ export default function Hero() {
     <div className="min-h-screen bg-[#f4f4f4] flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-8 md:py-0">
       
       {/* Left Side */}
-      <div className="md:w-1/2 text-center md:text-left space-y-6 mt-10 md:mt-0">
+      <div className="md:w-1/2 text-center md:text-left space-y-6 mt-10 md:mt-0 card" data-aos="fade-up">
         <h2 className="text-xl font-semibold text-gray-600">Hi</h2>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
           I'm <span className="text-green-500">Ziad Ahamed</span><br />
@@ -42,7 +42,7 @@ export default function Hero() {
 
 
 
-        <div className="flex gap-4 justify-center md:justify-start">
+        <div className="flex gap-4 justify-center md:justify-start card" data-aos="fade-up">
           <button className="bg-[#1f2937] text-white px-5 py-2 rounded-md hover:bg-gray-800">
             Hire Me
           </button>
@@ -51,7 +51,7 @@ export default function Hero() {
       </div>
 
       {/* Right Side */}
-      <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
+      <div className="md:w-1/2 flex justify-center mt-10 md:mt-0 card" data-aos="fade-up" >
         <img
           src={img5}
           alt="Ziad Ahamed"

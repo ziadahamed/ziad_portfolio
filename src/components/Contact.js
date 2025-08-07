@@ -4,7 +4,7 @@ export default function Contact() {
 
     return <section className='flex text-white flex-col bg-green-500 px-5 py-20' id="contact">
         
-        <div className=' flex flex-col items-center'>
+        <div className=' flex flex-col items-center' data-aos="fade-up">
 
             <h1 className='text-4xl text-white border-[#1f2937] border-b-4 w-[140px] mb-5 font-bold'>Contact</h1>
             <div className="flex py-4">

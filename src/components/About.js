@@ -1,6 +1,10 @@
 import AboutImg from '../assets/about.png';
 import gif from '../assets/2be1ce_864567900845418ebfd61e297637464d~mv2.gif';
 
+
+
+
+
 export default function About() {
   const config = {
     line1:
@@ -24,7 +28,7 @@ export default function About() {
 
 
       {/* Right - Text */}
-      <div className="md:w-1/2 text-white space-y-5">
+      <div className="md:w-1/2 text-white space-y-5" data-aos="fade-up">
         <h2 className="text-4xl font-bold border-b-4 border-green-500 w-fit mb-4">About Me</h2>
         <p className="text-lg leading-relaxed">{config.line1}</p>
         <p className="text-lg leading-relaxed">{config.line2}</p>

@@ -9,7 +9,7 @@ export default function Project() {
         {
             image : img2,
             description : 'Responsive Restaurent Website like Responsive,Built with HTML,CSS,Javascript and Bootstrap ',
-            link : 'https://ziadrestaurant.ccbp.tech/'
+            link : 'https://ziadahamed.github.io/foodhub/'
         },
 
         {
@@ -28,7 +28,7 @@ export default function Project() {
     }
 
     return (
-    <section className="flex flex-col py-20 px-5 justify-center bg-white text-white" id="projects">
+    <section className="flex flex-col py-20 px-5 justify-center bg-white text-white" id="projects" >
       <div className="w-full">
         <div className="flex flex-col px-10 py-5">
           <h1 className="text-4xl text-black border-green-500 border-b-4 w-[150px] mb-5 font-bold">Projects</h1>
@@ -36,10 +36,10 @@ export default function Project() {
         </div>
       </div>
     <div className="w-full">
-    <div className="flex flex-col justify-center md:flex-row px-10 gap-5">
+    <div className="flex flex-col justify-center md:flex-row px-10 gap-5" >
       {config.projects.map((project,index) => (
       
-          <div className="relative" key={index}>
+          <div className="relative" key={index} data-aos="fade-up">
               <img className="h-[200px] w-[400px]" src={project.image}/>
               <div className="project-desc">
                 <p className="text-center py-5 px-5">{project.description}</p>
